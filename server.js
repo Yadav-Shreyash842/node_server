@@ -14,8 +14,7 @@ const server = http.createServer((req, res) => {
       res.writeHead(200, { "Content-Type": "text/html" });
   } else if (url === "/about") {
       filePath = "about.html";
-      res.writeHead(200, { "Content-Type": "text/html" });
-
+      res.writeHead(200, { "Content-Type": "text/html" }); 
     } else if (url === "/contact") {
       filePath = "contact.html";
       res.writeHead(200, { "Content-Type": "text/html" });
@@ -27,9 +26,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(500, { "Content-Type": "text/plain" });
         res.end("Server Error");
       } else {
-        res.end(data);
-      }
-    });
+        res.end(data);}});
   }
 });
 
