@@ -2,6 +2,15 @@
 
 A simple HTTP web server built with Node.js that serves static HTML pages.
 
+## 🌐 Live Demo
+
+**🔗 [Click here to view the live application](https://node-server-qnum.onrender.com)**
+
+Try out the routes:
+- [Home Page](https://node-server-qnum.onrender.com/)
+- [About Page](https://node-server-qnum.onrender.com/about)
+- [Contact Page](https://node-server-qnum.onrender.com/contact)
+
 ## 📋 Project Overview
 
 This is a basic web server created using Node.js core modules without any external frameworks. It demonstrates fundamental concepts of server-side programming including routing, file handling, and HTTP response management.
