@@ -116,36 +116,10 @@ node/
 ✅ Clean code with detailed comments  
 ✅ No external dependencies (pure Node.js)  
 
-## 📝 Code Explanation
 
-The server code is well-commented to explain each section:
-
-- **Module imports**: Required Node.js modules are imported at the top
-- **Port configuration**: Server listens on port 3000
-- **Request handler**: Processes incoming HTTP requests
-- **Routing logic**: Matches URLs to appropriate HTML files
-- **File reading**: Asynchronously reads HTML files from disk
-- **Error handling**: Manages file reading errors and invalid routes
-- **Server start**: Begins listening for incoming connections
-
-## 🎓 Learning Outcomes
-
-This project demonstrates:
-- Creating HTTP servers in Node.js
-- Understanding request/response cycle
-- Implementing basic routing
-- Working with file system operations
-- HTTP status codes and headers
-- Asynchronous callback handling
 
 ## 👤 Author
 
 **Shreyash Yadav**
 
-## 📄 License
 
-ISC
-
----
-
-**Note**: This is a basic server for learning purposes. For production applications, consider using frameworks like Express.js which provide more features and better security.
