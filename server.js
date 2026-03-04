@@ -4,7 +4,7 @@ const fs = require("fs");     //  read files from the file system
 const path = require("path");  // handle file paths
 
 // Define the port 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Create an HTTP server 
 const server = http.createServer((req, res) => {
